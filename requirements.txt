@@ -1,0 +1,29 @@
+fastapi>=0.115
+uvicorn[standard]>=0.32
+pydantic>=2.9
+pydantic-settings>=2.6
+python-dotenv>=1.0
+
+# LLM / orchestration
+langchain>=0.3
+langchain-core>=0.3
+langchain-openai>=0.2
+langchain-text-splitters>=0.3
+langgraph>=0.2
+openai>=1.50
+
+# Retrieval
+langchain-postgres>=0.0.12
+psycopg[binary]>=3.2
+pgvector>=0.3
+rank-bm25>=0.2.2
+sentence-transformers>=3.0
+
+# Observability
+langfuse>=3.0
+
+# Eval (optional official package)
+ragas>=0.2
+
+# Dev
+pytest>=8.3
